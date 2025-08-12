@@ -2,12 +2,12 @@ import json, time, csv, os
 from datetime import datetime
 import serial
 
-# === EDIT THIS TO YOUR PORT ===
+# === EDIT THIS TO YOUR PORT WHEN REPLICATING ===
 PORT = "COM3"          # e.g., "COM3" on Windows, "/dev/ttyACM0" on Linux, "/dev/tty.usbmodemXXXX" on macOS
 BAUD = 115200
 
 ASSET_ID = "A1000"
-SERVICE_INTERVAL_HOURS = 800  # tweak later if you want
+SERVICE_INTERVAL_HOURS = 800  # you can tweak later if you want
 
 RAW_CSV = "live_sensor_log.csv"
 DASH_CSV = "sensor_snapshot.csv"
@@ -95,3 +95,4 @@ finally:
         ser.close()
     except Exception:
         pass
+
