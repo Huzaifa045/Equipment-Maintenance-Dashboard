@@ -37,14 +37,9 @@ The project simulates an industrial preventive maintenance solution by tracking 
 
 ## Photos
 
-### Hardware Build
 ![Hardware Setup](images/Hardware_Setup.jpg)
-
-### Excel Dashboard
 ![Excel Dashboard](images/excel_dashboard.png)
-
-### Live Command Line Data
-![Command Line Output](images/cmd_dashboard.png)
+![Command Line Dashboard](images/cmd_dashboard.png)
 
 ---
 
