@@ -1,0 +1,3 @@
+AssetID,Timestamp,Temp_C,Vibration_Events,Equipment_On,Runtime_Minutes,Hours_Since_LastService
+A1000,2025-08-12T08:14:21Z,27.8,2,True,3.3,0.1
+A1000,2025-08-12T08:14:26Z,28.1,0,True,3.4,0.1
